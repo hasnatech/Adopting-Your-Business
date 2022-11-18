@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "git": "git add . && git commit -m 'update' && git push",
-    "predeploy": "ng build --configuration production --base-href https://github.com/hasnatech/Adopting-Your-Business.git",
+    "predeploy": "ng build --configuration production --base-href https://github.com/hasnatech/Adopting-Your-Business/",
     "deploy": "gh-pages -d dist/Adopting-Your-Business",
     "upload": "ng build --configuration production --base-href ./"
   },
