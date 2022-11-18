@@ -1,1 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "app/variable.scss";
+@import "bootstrap/scss/bootstrap";
+// @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/fonts/HelveticaNeue.ttf);
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/fonts/HelveticaNeueBold.ttf);
+}
+
+@font-face {
+  font-family: "HelveticaNeueLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/fonts/HelveticaNeueLight.ttf);
+}
+
+// @font-face {
+//   font-family: "Segoe UI Regular";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url(assets/fonts/SegoeUI.woff);
+// }
+
+// @font-face {
+//   font-family: "Segoe UI Italic";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url(assets/fonts/SegoeUIItalic.woff);
+// }
+
+// @font-face {
+//   font-family: "Segoe UI Bold";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url(assets/fonts/SegoeUIBold.woff);
+// }
+
+// @font-face {
+//   font-family: "Segoe UI Bold Italic";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url(assets/fonts/SegoeUIBoldItalic.woff);
+// }
+@font-face {
+  font-family: Cavolini;
+  src: url(assets/fonts/CAVOLINI.TTF);
+}
+
+@font-face {
+  font-family: CavoliniItalic;
+  src: url(assets/fonts/CAVOLINIITALIC.TTF);
+}
+
+@font-face {
+  font-family: CavoliniBoldItalic;
+  src: url(assets/fonts/CAVOLINIBOLDITALIC.TTF);
+}
+
+// @font-face {
+//   font-family: CavoliniBold;
+//   src: url(assets/fonts/CAVOLINIBOLD.TTF);
+// }
+// @font-face {
+//   font-family: cutive;
+//   src: url(assets/fonts/Cutive-Regular.ttf);
+// }
+
+html,
+body {
+  font-family: HelveticaNeue;
+
+}
+b{
+  font-family: HelveticaNeueBold;
+}
+.bold{
+  font-family:HelveticaNeueBold ;
+}
+.rel{
+  position: relative
+}

@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "git": "git add . && git commit -m 'update' && git push",
+    "predeploy": "ng build --configuration production --base-href https://github.com/hasnatech/Adopting-Your-Business.git",
+    "deploy": "gh-pages -d dist/Adopting-Your-Business",
+    "upload": "ng build --configuration production --base-href ./"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +22,8 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "bootstrap": "^5.2.2",
+    "gsap": "^3.11.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

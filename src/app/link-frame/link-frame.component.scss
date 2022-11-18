@@ -1,0 +1,132 @@
+@import '../variable.scss';
+.txt{
+    color: #638C1C;
+}
+.flex_cnt{
+    display: flex;
+    flex-wrap: wrap;
+//   flex-direction: column;
+max-width: 1100px;
+margin: 0 auto;
+
+}
+
+.txt_cnt{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 30.333%;
+    min-height: 624px;
+    @include lg{
+        width: 45.333%;
+      
+    }
+    @include sm{
+        width: 90%;
+    }
+//    flex: 1;
+//  min-width: 31.333%;
+    // min-height: 556px;
+}
+.card-body{
+    padding: 35px 30px;
+
+    a{
+        text-decoration: none;
+    }
+}
+.brd-clr{
+    border-bottom: 20px solid #638C1C ;
+}
+.brd-clr1{
+    border-bottom: 20px solid #ABAD25 ;
+}
+.brd-clr2{
+    border-bottom: 20px solid #DBAA00;
+}
+.card-img-top{
+    position: relative;
+}
+.card-img-pos{
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    cursor: pointer;
+    &:hover{
+        background-color: #ddd9;
+        border-radius: 50%;
+      }
+    
+}
+.bold{
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    margin: 5px 0 5px 0;
+    padding: 5px 15px 5px 15px;
+    background-color: #474c55;
+    color: #ffffff;
+    font-family: 'HelveticaNeueW01-75Bold', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    &:hover{
+        background-color: rgb(197, 197, 197);
+        color: black;
+      }
+      
+ 
+}
+.modal_wid{
+    width: 843px;
+    // height: 450px;
+}
+
+.modal-content{
+    width: 850px;
+    // height: 450px;
+}
+.card1-img-pos{
+    position: absolute;
+    cursor: pointer;
+    top: 65px;
+    left: 110px;
+
+    &:hover{
+        background-color: #ddd9;
+        border-radius: 50%;
+      }
+}
+
+
+.card-text1 {
+    color: black;
+  text-decoration: none;
+    &:hover{
+      color: #638C1C
+     
+      }
+}
+
+.center-flex{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.full-wid{
+    width: 90%;
+}
+.wid-70{
+    max-width: 1100px;
+ margin: 0 auto;
+}
+.close-icon{
+    position: absolute;
+    left: 815px;
+    top: -15px;
+    cursor: pointer;
+}

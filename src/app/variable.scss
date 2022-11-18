@@ -1,0 +1,70 @@
+$blue: #005f86 !default; /*Message*/
+$medium-blue: #007582 !default;
+$light-blue: #279989 !default; /*Phone Call*/
+
+$green: #658d1b !default; /*Voice Mail*/
+$light-green: #abad25 !default;
+
+$yellow: #daaa00 !default;
+$light-orange: #cf7f00 !default;
+$dark-orange: #be531c !default;
+$red: #9e2a2f !default;
+
+$theme-colors: (
+  "primary": $medium-blue,
+  "secondary": $dark-orange,
+);
+
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 850px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin min($width) {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+.show_md {
+  display: none;
+
+  @include md {
+    display: block;
+  }
+}
