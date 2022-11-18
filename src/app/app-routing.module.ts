@@ -11,7 +11,7 @@ const routes: Routes = [
   //   component:AppComponent
   // },
   {
-    path:'link-frame',
+    path:'',
     component:LinkFrameComponent
   },
 ];
