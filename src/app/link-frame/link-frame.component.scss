@@ -18,6 +18,8 @@ margin: 0 auto;
 .card{
     width: 30.333%;
     min-height: 624px;
+    border-radius: 0;
+ 
     @include lg{
         width: 45.333%;
       
@@ -47,6 +49,8 @@ margin: 0 auto;
 }
 .card-img-top{
     position: relative;
+    border-radius: 0;
+
 }
 .card-img-pos{
     position: absolute;
@@ -83,11 +87,14 @@ margin: 0 auto;
 .modal_wid{
     width: 843px;
     // height: 450px;
+    border-radius: 0;
 }
 
 .modal-content{
     width: 850px;
     // height: 450px;
+    border-radius: 0;
+    
 }
 .card1-img-pos{
     position: absolute;
@@ -121,8 +128,9 @@ margin: 0 auto;
     width: 90%;
 }
 .wid-70{
-    max-width: 1100px;
- margin: 0 auto;
+    max-width: 1030px;
+    margin: 0 auto;
+    margin-left: 32px;
 }
 .close-icon{
     position: absolute;
